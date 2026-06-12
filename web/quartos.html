@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastrar Quarto</title>
+  <link rel="stylesheet" href="stye.css">
+</head>
+
+<body>
+
+  <aside class="barra-lateral">
+    <div class="logo-barra-lateral">
+      <img src="assets/hotel.png" class="imagem-logo" alt="Hotel Logo">
+      <div>Hotel<br>Reservas</div>
+    </div>
+    <nav>
+      <a href="index.html">☰ Quartos</a>
+      <a href="reservas.html">📅 Reservas</a>
+      <a href="#">ℹ️ Sobre</a>
+    </nav>
+  </aside>
+
+  <div class="conteudo">
+    <div class="cabecalho-pagina">
+      <div>
+        <h1>Cadastro de Quarto</h1>
+        <p>Informe os dados do novo quarto</p>
+      </div>
+    </div>
+
+    <div class="cartao">
+      <div class="grupo-formulario">
+        <label>Número do Quarto</label>
+        <input type="text" id="numero" placeholder="Ex: 101">
+      </div>
+
+      <div class="grupo-formulario">
+        <label>Tipo do Quarto</label>
+        <select id="tipo">
+          <option value="">Selecione o tipo</option>
+          <option value="Standard">Standard</option>
+          <option value="Luxo">Luxo</option>
+          <option value="Suite">Suite</option>
+          <option value="Duplo">Duplo</option>
+        </select>
+      </div>
+
+      <button class="botao botao-primario" style="width:100%" onclick="cadastrarQuarto()">
+        📋 Cadastrar
+      </button>
+      <button class="botao botao-secundario" onclick="location.href='index.html'">
+        ← Voltar
+      </button>
+    </div>
+
+    <footer>© 2024 Hotel Reservas - Projeto Full Stack</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

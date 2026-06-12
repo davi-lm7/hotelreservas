@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Reservas do Quarto</title>
+  <link rel="stylesheet" href="stye.css">
+</head>
+
+<body>
+
+  <aside class="barra-lateral">
+    <div class="logo-barra-lateral">
+      <img src="assets/hotel.png" class="imagem-logo" alt="Hotel Logo">
+      <div>Hotel<br>Reservas</div>
+    </div>
+    <nav>
+      <a href="index.html">☰ Quartos</a>
+      <a href="reservas.html" class="ativo">📅 Reservas</a>
+      <a href="#">ℹ️ Sobre</a>
+    </nav>
+  </aside>
+
+  <div class="conteudo">
+    <div class="cabecalho-pagina">
+      <div>
+        <h1 id="titulo-quarto">Reservas do Quarto</h1>
+        <p id="tipo-quarto"></p>
+      </div>
+      <button class="botao botao-primario" onclick="location.href='cadastro-reservas.html'">+ Nova Reserva</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Hóspede</th>
+          <th>Entrada</th>
+          <th>Saída</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="lista-reservas">
+      </tbody>
+    </table>
+
+    <button class="botao botao-secundario" style="max-width:200px; margin-top:20px" onclick="location.href='index.html'">
+      ← Voltar
+    </button>
+
+    <footer>© 2024 Hotel Reservas - Projeto Full Stack</footer>
+  </div>
+
+  <!-- Modal Excluir Reserva -->
+  <div class="fundo-modal" id="modal-excluir-reserva">
+    <div class="caixa-modal">
+      <div class="icone-modal">⚠️</div>
+      <h3>Excluir Reserva</h3>
+      <p>Deseja realmente excluir esta reserva?</p>
+      <div class="acoes-modal">
+        <button class="botao botao-cancelar" onclick="fecharModal('modal-excluir-reserva')">Cancelar</button>
+        <button class="botao botao-perigo" id="btn-confirmar-excluir-reserva">Excluir</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

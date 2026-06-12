@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastrar Reserva</title>
+  <link rel="stylesheet" href="stye.css">
+</head>
+
+<body>
+
+  <aside class="barra-lateral">
+    <div class="logo-barra-lateral">
+      <img src="assets/hotel.png" class="imagem-logo" alt="Hotel Logo">
+      <div>Hotel<br>Reservas</div>
+    </div>
+    <nav>
+      <a href="index.html">☰ Quartos</a>
+      <a href="reservas.html" class="ativo">📅 Reservas</a>
+      <a href="#">ℹ️ Sobre</a>
+    </nav>
+  </aside>
+
+  <div class="conteudo">
+    <div class="cabecalho-pagina">
+      <div>
+        <h1>Cadastro de Reserva</h1>
+        <p id="subtitulo-reserva">Quarto selecionado</p>
+      </div>
+    </div>
+
+    <div class="cartao">
+      <div class="grupo-formulario">
+        <label>Nome do Hóspede</label>
+        <input type="text" id="hospede" placeholder="Ex: João da Silva">
+      </div>
+
+      <div class="grupo-formulario">
+        <label>Data de Entrada</label>
+        <input type="date" id="data_entrada">
+      </div>
+
+      <div class="grupo-formulario">
+        <label>Data de Saída</label>
+        <input type="date" id="data_saida">
+      </div>
+
+      <button class="botao botao-primario" style="width:100%" onclick="cadastrarReserva()">
+        📋 Cadastrar Reserva
+      </button>
+      <button class="botao botao-secundario" onclick="location.href='reservas.html'">
+        ← Voltar
+      </button>
+    </div>
+
+    <footer>© 2024 Hotel Reservas - Projeto Full Stack</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

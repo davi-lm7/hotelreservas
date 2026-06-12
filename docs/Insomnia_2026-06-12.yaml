@@ -1,0 +1,369 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1756466185021
+  modified: 1756466185021
+  description: ""
+collection:
+  - name: Biblioteca
+    meta:
+      id: fld_0eb961d0c0894755a0535969349d94fa
+      created: 1756466620109
+      modified: 1757095812503
+      sortKey: -1756466620109
+      description: ""
+    children:
+      - name: Usuários
+        meta:
+          id: fld_f53e7951d96548dfb5a65994ca60925c
+          created: 1756466670216
+          modified: 1756466670216
+          sortKey: -1756466670216
+          description: ""
+      - name: Livros
+        meta:
+          id: fld_2bc79736eeba4976b842e3cbd1fe3197
+          created: 1756477016668
+          modified: 1756477016668
+          sortKey: -1756477016668
+          description: ""
+  - name: App Música
+    meta:
+      id: fld_5db5dc6236f04fbe84725735ca08de31
+      created: 1757079922333
+      modified: 1757079976558
+      sortKey: -1757079922333
+      description: ""
+    children:
+      - name: Usuários
+        meta:
+          id: fld_4b0522568890472da7cdea8aa44ac5f2
+          created: 1757080035403
+          modified: 1757080035403
+          sortKey: -1757080035403
+          description: ""
+      - name: Músicas
+        meta:
+          id: fld_eb6afd6420c044f8a9b49c0117930d75
+          created: 1757096390503
+          modified: 1757096390503
+          sortKey: -1757079978868
+          description: ""
+      - name: Playlist
+        meta:
+          id: fld_203f7ba1fada47ce80c68ffbac210540
+          created: 1757096723818
+          modified: 1757096723818
+          sortKey: -1757079950600.5
+          description: ""
+      - name: playlist_musica
+        meta:
+          id: fld_9de226002a70455385acd4894f1fc8fa
+          created: 1757099216089
+          modified: 1757099216089
+          sortKey: -1757079936466.75
+          description: ""
+  - name: Loja
+    meta:
+      id: fld_4a2d3414b25b4777ab2e42bb2d6e2bb3
+      created: 1758284521736
+      modified: 1758893595353
+      sortKey: -1758284521736
+      description: ""
+    children:
+      - name: Produtos
+        meta:
+          id: fld_d1cabc1bb11446f8ae5fc1f455c48a8d
+          created: 1758284554891
+          modified: 1758284554891
+          sortKey: -1758284554891
+          description: ""
+      - name: Pedidos
+        meta:
+          id: fld_7870f92ffd4c4001a27f3f3c7164493c
+          created: 1758290113101
+          modified: 1758290113101
+          sortKey: -1758284538313.5
+          description: ""
+      - name: Clientes
+        meta:
+          id: fld_81c155e5d68e43b3a561300beb7a9b31
+          created: 1758290572259
+          modified: 1758290572259
+          sortKey: -1758284530024.75
+          description: ""
+  - name: Cantina
+    meta:
+      id: fld_28f648db222e43129e95ded5bd57edf7
+      created: 1764331160423
+      modified: 1764331171695
+      sortKey: -1764331160423
+      description: ""
+    children:
+      - name: Alunos
+        meta:
+          id: fld_0c4871aa3a6541cdacc6558ed2611a5b
+          created: 1764331184936
+          modified: 1764331184936
+          sortKey: -1764331184936
+          description: ""
+      - name: Pedidos
+        meta:
+          id: fld_e0b648931cc241e3a1c6540027b39e3d
+          created: 1764335559292
+          modified: 1764335950132
+          sortKey: -1764331181871.875
+          description: ""
+      - name: Produtos
+        meta:
+          id: fld_870267dcbd8d4b74a2d8eb903160069d
+          created: 1764335942889
+          modified: 1764335942889
+          sortKey: -1764331178807.75
+          description: ""
+      - name: Relatórios
+        meta:
+          id: fld_8e2b982f11c4411fb1b51674ba04af82
+          created: 1764336105832
+          modified: 1764336409190
+          sortKey: -1764331185036
+          description: ""
+  - name: gitparty
+    meta:
+      id: fld_981523741b504f8780dd2166937e3cf5
+      created: 1773423375132
+      modified: 1773423375132
+      sortKey: -1773423375132
+      description: ""
+    children:
+      - name: Usuarios
+        meta:
+          id: fld_6f4edcc5d3fb4f0399c523b74ed079cb
+          created: 1773423375135
+          modified: 1773423375135
+          sortKey: -1773423375135
+          description: ""
+      - name: Eventos
+        meta:
+          id: fld_3f4dc333f6294034ad8fb170db57e616
+          created: 1773423375149
+          modified: 1773423375149
+          sortKey: -1773423375149
+          description: ""
+      - name: Incricoes
+        meta:
+          id: fld_ff5081114ec14101aa9e1d9a6595a5f6
+          created: 1773423375160
+          modified: 1773423375160
+          sortKey: -1773423375160
+          description: ""
+  - name: Daily Check
+    meta:
+      id: fld_8d3857931c0141c995fac7583ac3ebb6
+      created: 1778094320532
+      modified: 1778094320532
+      sortKey: -1778094320532
+      description: ""
+    children:
+      - name: Tarefas
+        meta:
+          id: fld_682d59c8b2ca40cdb17da6910b6061b1
+          created: 1778094332323
+          modified: 1778094332323
+          sortKey: -1778094332323
+          description: ""
+  - name: Hotel
+    meta:
+      id: fld_5aa78041b4db44bea84d1667707ca683
+      created: 1781264135667
+      modified: 1781264135667
+      sortKey: -1781264135667
+      description: ""
+    children:
+      - name: Quartos
+        meta:
+          id: fld_a3fa4ba1346748b5afb4af055e1bd85a
+          created: 1781264161886
+          modified: 1781264164889
+          sortKey: -1781264164841
+          description: ""
+        children:
+          - url: http://localhost:3000/quartos
+            name: Listar
+            meta:
+              id: req_57831c56a5234ee097208d34052c2692
+              created: 1781264214551
+              modified: 1781264243957
+              isPrivate: false
+              description: ""
+              sortKey: -1781264214551
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/quartos
+            name: Cadastrar
+            meta:
+              id: req_5b5766c37a864915a0185cbfa5e05dbf
+              created: 1781264246083
+              modified: 1781264576119
+              isPrivate: false
+              description: ""
+              sortKey: -1781264246083
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                { "numero": "701", 
+                 "tipo": "Solteiro" 
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/quartos/1
+            name: Excluir
+            meta:
+              id: req_fd939306ffaa4e728c2799f4828b1a7c
+              created: 1781264344636
+              modified: 1781264363972
+              isPrivate: false
+              description: ""
+              sortKey: -1781264344636
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Reservas
+        meta:
+          id: fld_24ce2c228c5942aba358e948e4f70354
+          created: 1781264176121
+          modified: 1781264176121
+          sortKey: -1781264176121
+          description: ""
+        children:
+          - url: http://localhost:3000/reservas
+            name: Cadastrar
+            meta:
+              id: req_7c3183bedc0e4bacb16b30ecf8eb93c1
+              created: 1781264380634
+              modified: 1781264543106
+              isPrivate: false
+              description: ""
+              sortKey: -1781264380634
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                { "hospede": "Davi", 
+                 "data_entrada": "2026-06-12", 
+                 "data_saida": "2025-06-17", 
+                 "quarto_id": 3 
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/reservas/quarto/5
+            name: Listar por Quarto
+            meta:
+              id: req_8b54488d0f674acd8dd3e4d6c24c1f3e
+              created: 1781264597117
+              modified: 1781270675586
+              isPrivate: false
+              description: ""
+              sortKey: -1781264597117
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://localhost:3000/reservas/3
+            name: Excluir
+            meta:
+              id: req_e0b8a636d44b47d3b595589522aa4cde
+              created: 1781264697335
+              modified: 1781264791515
+              isPrivate: false
+              description: ""
+              sortKey: -1781264697335
+            method: DELETE
+            headers:
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466227310
+    modified: 1756466227310
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1756466227147
+    modified: 1756466227147
+    isPrivate: false

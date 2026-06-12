@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  min-height: 100vh;
+}
+
+.barra-lateral {
+  width: 200px;
+  background: #1a2340;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  min-height: 100vh;
+  position: fixed;
+}
+
+.logo-barra-lateral {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 1px solid #2e3a55;
+}
+
+.logo-barra-lateral span {
+  font-size: 22px;
+}
+
+.imagem-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.barra-lateral nav {
+  margin-top: 20px;
+}
+
+.barra-lateral nav a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  color: #aab4c8;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.barra-lateral nav a:hover,
+.barra-lateral nav a.ativo {
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  margin: 0 8px;
+  padding: 12px 12px;
+}
+
+.conteudo {
+  margin-left: 200px;
+  padding: 32px;
+  width: calc(100% - 200px);
+}
+
+.cabecalho-pagina {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.cabecalho-pagina h1 {
+  font-size: 22px;
+  color: #1a2340;
+}
+
+.cabecalho-pagina p {
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.botao {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+
+.botao-primario {
+  background: #2563eb;
+  color: white;
+}
+
+.botao-primario:hover {
+  background: #1d4ed8;
+}
+
+.botao-perigo {
+  background: white;
+  color: #e53935;
+  border: 1px solid #e53935;
+}
+
+.botao-perigo:hover {
+  background: #ffeaea;
+}
+
+.botao-secundario {
+  background: white;
+  color: #333;
+  border: 1px solid #ccc;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.botao-sucesso {
+  background: #2563eb;
+  color: white;
+}
+
+.botao-sucesso:hover {
+  background: #1d4ed8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+th {
+  background: white;
+  color: #555;
+  font-size: 13px;
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+  color: #333;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* FORMULÁRIO */
+.cartao {
+  background: white;
+  border-radius: 10px;
+  padding: 28px;
+  max-width: 480px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.cartao h2 {
+  font-size: 20px;
+  color: #1a2340;
+  margin-bottom: 4px;
+}
+
+.cartao p {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.grupo-formulario {
+  margin-bottom: 18px;
+}
+
+.grupo-formulario label {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.grupo-formulario input,
+.grupo-formulario select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.grupo-formulario input:focus,
+.grupo-formulario select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* MODAL */
+.fundo-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundo-modal.ativo {
+  display: flex;
+}
+
+.caixa-modal {
+  background: white;
+  border-radius: 10px;
+  padding: 32px;
+  max-width: 380px;
+  width: 90%;
+  text-align: center;
+}
+
+.icone-modal {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.caixa-modal h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #1a2340;
+}
+
+.caixa-modal p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.acoes-modal {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.acoes-modal .botao {
+  padding: 10px 28px;
+}
+
+.botao-cancelar {
+  background: white;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 40px;
+}
